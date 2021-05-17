@@ -1086,3 +1086,1761 @@ Make sure 'PlantMoney_C' has been compiled for  Set growthStage
 [2021.05.17-01.41.56:553][626]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2021.05.17-01.41.57:955][729]LogSlate: Window 'Message Log' being destroyed
 [2021.05.17-01.41.57:977][729]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-01.42.31:528][925]LogSlate: Window 'PlantBush' being destroyed
+[2021.05.17-01.42.31:563][925]LogSlate: Window 'PlantBush' being destroyed
+[2021.05.17-01.42.31:566][925]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-01.42.31:566][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-01.42.31:603][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.17-01.42.31:603][925]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-01.42.31:603][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-01.54.26:256][320]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-01.54.26:261][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-01.54.26:261][320]PIE: New page: PIE session: PlantGame (May 16, 2021, 5:54:26 PM)
+[2021.05.17-01.54.26:261][320]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-01.54.26:268][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006851s)
+[2021.05.17-01.54.26:269][320]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-01.54.26:270][320]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2021.05.17-01.54.26:270][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.008148s)
+[2021.05.17-01.54.26:311][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.05.17-01.54.26:323][320]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-01.54.26:323][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-01.54.26:323][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-01.54.26:324][320]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-01.54.26:324][320]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-01.54.26:327][320]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-01.54.26:327][320]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-01.54.26:333][320]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-01.54.26:333][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-01.54.26:333][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-01.54.26:333][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-01.54.26:333][320]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-01.54.26:333][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-01.54.26:333][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-01.54.26:346][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-01.54.26:346][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-01.54.26:346][320]LogInit: FAudioDevice initialized.
+[2021.05.17-01.54.26:346][320]LogAudio: Display: Audio Device (ID: 6) registered with world 'PlantGame'.
+[2021.05.17-01.54.26:367][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-01.54.26:367][320]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-01.54.26:368][320]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-21.54.26
+[2021.05.17-01.54.26:369][320]LogWorld: Bringing up level for play took: 0.000757
+[2021.05.17-01.54.26:369][320]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.05.17-01.54.26:403][320]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-01.54.26:404][320]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-01.54.26:405][320]PIE: Server logged in
+[2021.05.17-01.54.26:406][320]PIE: Play in editor total start time 0.145 seconds.
+[2021.05.17-01.54.27:977][466]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-01.54.29:009][564]LogBlueprintUserMessages: [PlantSelector_C_0] TODO: Close plantui
+[2021.05.17-01.54.36:362][261]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-01.54.37:966][413]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-01.54.39:526][561]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-01.54.42:133][808]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-01.54.43:620][949]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-01.55.03:482][832]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-01.55.03:497][832]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-01.55.03:498][832]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-01.55.03:499][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-01.55.03:505][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-01.55.03:514][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-01.55.03:528][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-01.55.03:529][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-01.55.03:566][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.05.17-01.55.03:671][833]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.05.17-01.55.05:476][972]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-01.55.05:490][972]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-01.55.12:100][688]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-01.56.00:433][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.05.17-01.56.00:436][119]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownBP/Maps/PlantGame' took 0.016
+[2021.05.17-01.56.00:436][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Plants/PlantBush] ([1] browsable assets)...
+[2021.05.17-01.56.00:443][119]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush]
+[2021.05.17-01.56.00:443][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Plants/PlantBush]
+[2021.05.17-01.56.00:453][119]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush_Auto127B89AF64F0B4CFD6AD546A436416D11.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/Autosaves/Game/TopDownBP/Blueprints/Plants/PlantBush_Auto1.uasset'
+[2021.05.17-01.56.00:454][119]LogFileHelpers: Auto-saving content packages took 0.018
+[2021.05.17-01.57.33:471][ 72]LogEditorTransaction: Undo Move Node
+[2021.05.17-01.57.34:060][ 86]LogEditorTransaction: Undo Create Pin Link
+[2021.05.17-01.57.34:590][125]LogEditorTransaction: Undo Move Node
+[2021.05.17-01.57.35:337][201]LogEditorTransaction: Undo Move Node
+[2021.05.17-01.57.35:919][267]LogEditorTransaction: Undo Create Pin Link
+[2021.05.17-02.01.28:683][718]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush746ED9334ED088290A6A608A273A4BA0.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.01.28:696][718]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.01.28:696][718]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.01.30:649][944]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.01.30:675][944]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.05.17-02.01.44:047][492]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.01.44:052][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.01.44:052][492]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:01:44 PM)
+[2021.05.17-02.01.44:052][492]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.01.44:058][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006531s)
+[2021.05.17-02.01.44:059][492]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.01.44:059][492]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2021.05.17-02.01.44:060][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007674s)
+[2021.05.17-02.01.44:078][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.05.17-02.01.44:080][492]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.01.44:080][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.01.44:080][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.01.44:081][492]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.01.44:081][492]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.01.44:083][492]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.01.44:083][492]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.01.44:089][492]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.01.44:089][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.01.44:089][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.01.44:089][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.01.44:090][492]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.01.44:090][492]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.01.44:090][492]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.01.44:101][492]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.01.44:101][492]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.01.44:101][492]LogInit: FAudioDevice initialized.
+[2021.05.17-02.01.44:101][492]LogAudio: Display: Audio Device (ID: 7) registered with world 'PlantGame'.
+[2021.05.17-02.01.44:129][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.01.44:129][492]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.01.44:130][492]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.01.44
+[2021.05.17-02.01.44:131][492]LogWorld: Bringing up level for play took: 0.000681
+[2021.05.17-02.01.44:131][492]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.05.17-02.01.44:165][492]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.01.44:165][492]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.01.44:167][492]PIE: Server logged in
+[2021.05.17-02.01.44:168][492]PIE: Play in editor total start time 0.117 seconds.
+[2021.05.17-02.01.45:762][616]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.03.04:844][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.03.04:844][999]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.03.04:844][999]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.03.04:846][999]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.03.04:847][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.03.04:852][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.03.04:860][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.03.04:871][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.03.04:872][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.03.04:889][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.05.17-02.03.04:959][  0]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.05.17-02.04.45:073][351]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.04.45:099][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.05.17-02.05.06:127][330]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.05.06:153][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.05.17-02.05.57:730][214]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.05.57:757][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.05.17-02.07.57:411][488]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush1E1B5C744E041719787E7D9332026A7E.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.07.57:419][488]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.07.57:419][488]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.08.49:689][376]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBushEEAD3BB44A847BE1AE821DB9028F6235.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.08.49:698][376]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.08.49:698][376]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.08.51:367][537]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.08.51:372][537]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.08.51:373][537]LogPlayLevel: [PlayLevel] Compiling PlantBush before play...
+[2021.05.17-02.08.51:395][537]LogPlayLevel: [PlayLevel] Compiling PlantSelector before play...
+[2021.05.17-02.08.51:422][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.05.17-02.08.51:424][537]LogPlayLevel: PlayLevel: Blueprint regeneration took 52 ms (2 blueprints)
+[2021.05.17-02.08.51:424][537]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:08:51 PM)
+[2021.05.17-02.08.51:424][537]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.08.51:431][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006565s)
+[2021.05.17-02.08.51:432][537]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.08.51:432][537]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2021.05.17-02.08.51:432][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007684s)
+[2021.05.17-02.08.51:446][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.17-02.08.51:447][537]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.08.51:447][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.08.51:447][537]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.08.51:447][537]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.08.51:450][537]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.08.51:450][537]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.08.51:456][537]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.08.51:456][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.08.51:456][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.08.51:456][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.08.51:456][537]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.08.51:456][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.08.51:456][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.08.51:468][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.08.51:468][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.08.51:468][537]LogInit: FAudioDevice initialized.
+[2021.05.17-02.08.51:468][537]LogAudio: Display: Audio Device (ID: 8) registered with world 'PlantGame'.
+[2021.05.17-02.08.51:496][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.08.51:496][537]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.08.51:497][537]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.08.51
+[2021.05.17-02.08.51:497][537]LogWorld: Bringing up level for play took: 0.000690
+[2021.05.17-02.08.51:497][537]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.05.17-02.08.51:532][537]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.08.51:532][537]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.08.51:534][537]PIE: Server logged in
+[2021.05.17-02.08.51:535][537]PIE: Play in editor total start time 0.163 seconds.
+[2021.05.17-02.08.54:075][806]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.09.28:951][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.09.28:951][971]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.09.28:951][971]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.09.28:953][971]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.09.28:954][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.09.28:964][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.09.28:972][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.09.28:983][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.09.28:984][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.09.29:000][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.05.17-02.09.29:051][972]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.05.17-02.09.53:353][203]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBushCA50F2624959AB749500BC93ADB21ADE.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.09.53:361][203]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.09.53:361][203]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.09.54:145][279]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.09.54:170][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.05.17-02.09.54:725][325]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush60952680461F7AC7342EF1B35DF14DF3.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.09.54:733][325]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.09.54:733][325]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.09.55:475][396]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.09.55:479][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.09.55:479][396]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:09:55 PM)
+[2021.05.17-02.09.55:479][396]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.09.55:486][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006297s)
+[2021.05.17-02.09.55:487][396]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.09.55:487][396]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2021.05.17-02.09.55:487][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007288s)
+[2021.05.17-02.09.55:504][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.05.17-02.09.55:505][396]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.09.55:505][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.09.55:505][396]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.09.55:505][396]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.09.55:508][396]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.09.55:508][396]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.09.55:513][396]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.09.55:514][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.09.55:514][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.09.55:514][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.09.55:514][396]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.09.55:514][396]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.09.55:514][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.09.55:526][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.09.55:526][396]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.09.55:526][396]LogInit: FAudioDevice initialized.
+[2021.05.17-02.09.55:526][396]LogAudio: Display: Audio Device (ID: 9) registered with world 'PlantGame'.
+[2021.05.17-02.09.55:562][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.09.55:562][396]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.09.55:563][396]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.09.55
+[2021.05.17-02.09.55:563][396]LogWorld: Bringing up level for play took: 0.000691
+[2021.05.17-02.09.55:563][396]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.05.17-02.09.55:597][396]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.09.55:598][396]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.09.55:601][396]PIE: Server logged in
+[2021.05.17-02.09.55:601][396]PIE: Play in editor total start time 0.122 seconds.
+[2021.05.17-02.09.58:068][676]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.11.43:936][197]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.11.43:942][197]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.11.43:942][197]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.11.43:944][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.11.43:952][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.11.43:960][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.11.43:973][197]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.17-02.11.43:974][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.11.43:974][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.11.43:991][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.05.17-02.11.44:073][198]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.05.17-02.11.51:148][829]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.11.51:153][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.11.51:153][829]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:11:51 PM)
+[2021.05.17-02.11.51:153][829]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.11.51:159][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006141s)
+[2021.05.17-02.11.51:160][829]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.11.51:160][829]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2021.05.17-02.11.51:160][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007200s)
+[2021.05.17-02.11.51:175][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.05.17-02.11.51:177][829]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.11.51:177][829]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.11.51:177][829]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.11.51:177][829]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.11.51:180][829]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.11.51:180][829]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.11.51:185][829]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.11.51:186][829]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.11.51:186][829]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.11.51:186][829]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.11.51:186][829]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.11.51:186][829]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.11.51:186][829]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.11.51:198][829]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.11.51:198][829]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.11.51:198][829]LogInit: FAudioDevice initialized.
+[2021.05.17-02.11.51:198][829]LogAudio: Display: Audio Device (ID: 10) registered with world 'PlantGame'.
+[2021.05.17-02.11.51:216][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.11.51:216][829]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.11.51:217][829]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.11.51
+[2021.05.17-02.11.51:218][829]LogWorld: Bringing up level for play took: 0.000678
+[2021.05.17-02.11.51:218][829]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.05.17-02.11.51:252][829]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.11.51:252][829]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.11.51:254][829]PIE: Server logged in
+[2021.05.17-02.11.51:256][829]PIE: Play in editor total start time 0.103 seconds.
+[2021.05.17-02.11.54:650][145]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.12.16:243][487]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.12.16:248][487]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.12.16:282][487]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.12.16:283][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.12.16:288][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.12.16:295][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.12.16:307][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.12.16:308][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.12.16:324][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.05.17-02.12.16:398][488]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.05.17-02.13.32:317][654]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.13.32:343][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.05.17-02.13.33:254][732]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush0785CF854DDB562E5124D18237153738.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.13.33:266][732]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.13.33:266][732]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.13.33:709][770]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.13.33:714][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.13.33:714][770]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:13:33 PM)
+[2021.05.17-02.13.33:714][770]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.13.33:721][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006784s)
+[2021.05.17-02.13.33:721][770]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.13.33:722][770]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2021.05.17-02.13.33:722][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007733s)
+[2021.05.17-02.13.33:736][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.05.17-02.13.33:737][770]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.13.33:737][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.13.33:737][770]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.13.33:737][770]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.13.33:740][770]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.13.33:740][770]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.13.33:746][770]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.13.33:746][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.13.33:746][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.13.33:746][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.13.33:746][770]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.13.33:746][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.13.33:746][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.13.33:758][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.13.33:758][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.13.33:758][770]LogInit: FAudioDevice initialized.
+[2021.05.17-02.13.33:758][770]LogAudio: Display: Audio Device (ID: 11) registered with world 'PlantGame'.
+[2021.05.17-02.13.33:785][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.13.33:785][770]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.13.33:786][770]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.13.33
+[2021.05.17-02.13.33:786][770]LogWorld: Bringing up level for play took: 0.000679
+[2021.05.17-02.13.33:786][770]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.05.17-02.13.33:820][770]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.13.33:821][770]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.13.33:823][770]PIE: Server logged in
+[2021.05.17-02.13.33:824][770]PIE: Play in editor total start time 0.111 seconds.
+[2021.05.17-02.13.35:063][889]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.15.22:835][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.15.22:835][950]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.15.22:835][950]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.15.22:837][950]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.15.22:838][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.15.22:844][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.15.22:852][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.15.22:863][950]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.17-02.15.22:864][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.15.22:865][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.15.22:880][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.05.17-02.15.22:927][951]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.05.17-02.16.34:938][810]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBushB4BD081F476F5423C9BF188D00181DDF.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.16.34:948][810]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.16.34:948][810]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.16.35:444][858]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.16.35:449][858]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.16.35:450][858]LogPlayLevel: [PlayLevel] Compiling PlantBush before play...
+[2021.05.17-02.16.35:484][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.05.17-02.16.35:486][858]LogPlayLevel: PlayLevel: Blueprint regeneration took 37 ms (1 blueprints)
+[2021.05.17-02.16.35:486][858]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:16:35 PM)
+[2021.05.17-02.16.35:487][858]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.16.35:493][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006249s)
+[2021.05.17-02.16.35:494][858]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.16.35:494][858]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2021.05.17-02.16.35:494][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007383s)
+[2021.05.17-02.16.35:509][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.05.17-02.16.35:509][858]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.05.17-02.16.35:509][858]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.16.35:509][858]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.16.35:510][858]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.16.35:510][858]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.16.35:510][858]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.16.35:510][858]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.16.35:510][858]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.16.35:510][858]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.16.35:510][858]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.16.35:510][858]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.16.35:513][858]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.16.35:513][858]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.16.35:519][858]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.16.35:519][858]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.16.35:519][858]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.16.35:519][858]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.16.35:519][858]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.16.35:519][858]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.16.35:519][858]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.16.35:531][858]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.16.35:531][858]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.16.35:531][858]LogInit: FAudioDevice initialized.
+[2021.05.17-02.16.35:531][858]LogAudio: Display: Audio Device (ID: 12) registered with world 'PlantGame'.
+[2021.05.17-02.16.35:563][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.16.35:563][858]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.16.35:564][858]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.16.35
+[2021.05.17-02.16.35:564][858]LogWorld: Bringing up level for play took: 0.000691
+[2021.05.17-02.16.35:564][858]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.05.17-02.16.35:598][858]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.16.35:598][858]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.16.35:600][858]PIE: Server logged in
+[2021.05.17-02.16.35:601][858]PIE: Play in editor total start time 0.152 seconds.
+[2021.05.17-02.16.36:719][958]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.16.47:305][933]LogBlueprintUserMessages: [PlantBush_C_0] 0.2
+[2021.05.17-02.16.57:307][131]LogBlueprintUserMessages: [PlantBush_C_0] 0.2
+[2021.05.17-02.17.00:617][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.17.00:617][520]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.17.00:617][520]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.17.00:619][520]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.17.00:620][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.17.00:630][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.17.00:638][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.17.00:649][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.17.00:650][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.17.00:666][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.05.17-02.17.00:721][521]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.05.17-02.17.12:536][597]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush390301D84C60167BA11635A345C2369C.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.17.12:550][597]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.17.12:550][597]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.17.13:721][706]LogBlueprintUserMessages: [PlantBush_C_1] 0.2
+[2021.05.17-02.17.14:117][743]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.17.14:122][743]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.17.14:122][743]LogPlayLevel: [PlayLevel] Compiling PlantBush before play...
+[2021.05.17-02.17.14:156][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.05.17-02.17.14:158][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 36 ms (1 blueprints)
+[2021.05.17-02.17.14:158][743]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:17:14 PM)
+[2021.05.17-02.17.14:158][743]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.17.14:164][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006256s)
+[2021.05.17-02.17.14:165][743]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.17.14:165][743]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2021.05.17-02.17.14:165][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007162s)
+[2021.05.17-02.17.14:179][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.17-02.17.14:179][743]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.17.14:179][743]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.17.14:179][743]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.17.14:180][743]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.17.14:180][743]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.17.14:183][743]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.17.14:183][743]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.17.14:188][743]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.17.14:188][743]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.17.14:188][743]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.17.14:188][743]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.17.14:189][743]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.17.14:189][743]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.17.14:189][743]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.17.14:200][743]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.17.14:200][743]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.17.14:200][743]LogInit: FAudioDevice initialized.
+[2021.05.17-02.17.14:200][743]LogAudio: Display: Audio Device (ID: 13) registered with world 'PlantGame'.
+[2021.05.17-02.17.14:238][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.17.14:238][743]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.17.14:239][743]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.17.14
+[2021.05.17-02.17.14:239][743]LogWorld: Bringing up level for play took: 0.000681
+[2021.05.17-02.17.14:239][743]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.05.17-02.17.14:273][743]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.17.14:273][743]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.17.14:275][743]PIE: Server logged in
+[2021.05.17-02.17.14:276][743]PIE: Play in editor total start time 0.155 seconds.
+[2021.05.17-02.17.16:309][941]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.17.26:790][188]LogBlueprintUserMessages: [PlantBush_C_0] 0.2
+[2021.05.17-02.17.36:791][386]LogBlueprintUserMessages: [PlantBush_C_0] 0.4
+[2021.05.17-02.17.46:786][583]LogBlueprintUserMessages: [PlantBush_C_0] 0.6
+[2021.05.17-02.17.49:448][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.17.49:448][887]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.17.49:448][887]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.17.49:496][887]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.17.49:498][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.17.49:504][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.17.49:513][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.17.49:525][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.17.49:526][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.17.49:542][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.05.17-02.17.49:593][888]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.05.17-02.17.59:656][814]LogBlueprintUserMessages: [PlantBush_C_1] 0.2
+[2021.05.17-02.18.04:052][217]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBushC41229D441B126BEAA466AA91A22C697.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.18.04:061][217]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.18.04:061][217]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.18.06:367][458]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush2C76597E41BE057580A16EA5C3ACC683.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.18.06:376][458]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.18.06:376][458]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.18.07:477][573]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.18.07:481][573]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.18.07:482][573]LogPlayLevel: [PlayLevel] Compiling PlantBush before play...
+[2021.05.17-02.18.07:515][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.05.17-02.18.07:518][573]LogPlayLevel: PlayLevel: Blueprint regeneration took 36 ms (1 blueprints)
+[2021.05.17-02.18.07:518][573]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:18:07 PM)
+[2021.05.17-02.18.07:518][573]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.18.07:525][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006518s)
+[2021.05.17-02.18.07:525][573]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.18.07:526][573]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2021.05.17-02.18.07:526][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007524s)
+[2021.05.17-02.18.07:541][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.17-02.18.07:541][573]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.18.07:541][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.18.07:541][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.18.07:541][573]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.18.07:542][573]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.18.07:544][573]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.18.07:544][573]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.18.07:550][573]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.18.07:550][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.18.07:550][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.18.07:550][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.18.07:550][573]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.18.07:551][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.18.07:551][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.18.07:562][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.18.07:562][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.18.07:562][573]LogInit: FAudioDevice initialized.
+[2021.05.17-02.18.07:562][573]LogAudio: Display: Audio Device (ID: 14) registered with world 'PlantGame'.
+[2021.05.17-02.18.07:596][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.18.07:596][573]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.18.07:597][573]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.18.07
+[2021.05.17-02.18.07:597][573]LogWorld: Bringing up level for play took: 0.000713
+[2021.05.17-02.18.07:597][573]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.05.17-02.18.07:631][573]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.18.07:631][573]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.18.07:633][573]PIE: Server logged in
+[2021.05.17-02.18.07:634][573]PIE: Play in editor total start time 0.153 seconds.
+[2021.05.17-02.18.08:944][721]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.18.19:423][974]LogBlueprintUserMessages: [PlantBush_C_0] X=0.700 Y=0.700 Z=0.700
+[2021.05.17-02.18.29:426][167]LogBlueprintUserMessages: [PlantBush_C_0] X=0.900 Y=0.900 Z=0.900
+[2021.05.17-02.18.39:429][353]LogBlueprintUserMessages: [PlantBush_C_0] X=1.100 Y=1.100 Z=1.100
+[2021.05.17-02.18.57:749][273]LogBlueprintUserMessages: [PlantBush_C_0] X=1.300 Y=1.300 Z=1.300
+[2021.05.17-02.19.07:752][470]LogBlueprintUserMessages: [PlantBush_C_0] X=1.500 Y=1.500 Z=1.500
+[2021.05.17-02.19.26:519][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.19.26:519][703]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.19.26:520][703]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.19.26:521][703]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.19.26:522][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.19.26:527][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.19.26:536][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.19.26:548][703]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.19.26:549][703]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.19.26:565][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.05.17-02.19.26:634][704]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.05.17-02.20.09:350][736]LogBlueprintUserMessages: [PlantBush_C_1] X=0.700 Y=0.700 Z=0.700
+[2021.05.17-02.20.10:898][876]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush0493C06642F2BEF4D64A46BDD66AFA99.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.20.10:907][876]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.20.10:907][876]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.20.12:356][ 15]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.20.12:361][ 15]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.20.12:362][ 15]LogPlayLevel: [PlayLevel] Compiling PlantBush before play...
+[2021.05.17-02.20.12:395][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.05.17-02.20.12:396][ 15]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2021.05.17-02.20.12:396][ 15]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:20:12 PM)
+[2021.05.17-02.20.12:396][ 15]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.20.12:402][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006284s)
+[2021.05.17-02.20.12:403][ 15]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.20.12:403][ 15]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2021.05.17-02.20.12:403][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007363s)
+[2021.05.17-02.20.12:417][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.05.17-02.20.12:418][ 15]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.20.12:418][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.20.12:418][ 15]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.20.12:418][ 15]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.20.12:421][ 15]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.20.12:421][ 15]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.20.12:426][ 15]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.20.12:426][ 15]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.20.12:426][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.20.12:426][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.20.12:427][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.20.12:427][ 15]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.20.12:427][ 15]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.20.12:438][ 15]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.20.12:438][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.20.12:438][ 15]LogInit: FAudioDevice initialized.
+[2021.05.17-02.20.12:439][ 15]LogAudio: Display: Audio Device (ID: 15) registered with world 'PlantGame'.
+[2021.05.17-02.20.12:474][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.20.12:474][ 15]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.20.12:475][ 15]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.20.12
+[2021.05.17-02.20.12:475][ 15]LogWorld: Bringing up level for play took: 0.000696
+[2021.05.17-02.20.12:475][ 15]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.17-02.20.12:509][ 15]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.20.12:509][ 15]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.20.12:511][ 15]PIE: Server logged in
+[2021.05.17-02.20.12:512][ 15]PIE: Play in editor total start time 0.152 seconds.
+[2021.05.17-02.20.14:810][246]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.20.25:324][492]LogBlueprintUserMessages: [PlantBush_C_0] X=0.700 Y=0.700 Z=0.700
+[2021.05.17-02.20.32:166][307]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.20.32:172][307]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.20.32:210][307]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.20.32:211][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.20.32:219][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.20.32:227][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.20.32:238][307]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.17-02.20.32:239][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.20.32:240][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.20.32:256][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.05.17-02.20.32:333][308]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.17-02.20.39:340][944]LogEditorTransaction: Undo Create Pin Link
+[2021.05.17-02.20.39:861][961]LogEditorTransaction: Undo Create Pin Link
+[2021.05.17-02.20.40:220][992]LogEditorTransaction: Undo Create Pin Link
+[2021.05.17-02.20.40:474][ 12]LogEditorTransaction: Undo Move Node
+[2021.05.17-02.20.41:413][ 97]LogEditorTransaction: Undo Move Node
+[2021.05.17-02.20.42:024][152]LogEditorTransaction: Undo Add Node
+[2021.05.17-02.20.42:362][180]LogBlueprintUserMessages: [PlantBush_C_1] X=0.700 Y=0.700 Z=0.700
+[2021.05.17-02.20.52:517][431]LogBlueprintUserMessages: [PlantBush_C_1] X=0.900 Y=0.900 Z=0.900
+[2021.05.17-02.21.03:630][464]LogBlueprintUserMessages: [PlantBush_C_1] X=1.100 Y=1.100 Z=1.100
+[2021.05.17-02.21.08:706][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.05.17-02.21.08:709][479]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownBP/Maps/PlantGame' took 0.016
+[2021.05.17-02.21.08:709][479]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/PlantSelector] ([1] browsable assets)...
+[2021.05.17-02.21.08:709][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/PlantSelector]
+[2021.05.17-02.21.08:746][479]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantSelector_Auto23468E9F5468A02751236FEA20E217BAA.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/Autosaves/Game/TopDownBP/Blueprints/PlantSelector_Auto2.uasset'
+[2021.05.17-02.21.08:747][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Plants/PlantBush] ([2] browsable assets)...
+[2021.05.17-02.21.08:762][479]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush]
+[2021.05.17-02.21.08:773][479]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush]
+[2021.05.17-02.21.08:773][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Plants/PlantBush]
+[2021.05.17-02.21.08:789][479]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush_Auto2703DBB33434021F314A1E4ACDA15654A.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/Autosaves/Game/TopDownBP/Blueprints/Plants/PlantBush_Auto2.uasset'
+[2021.05.17-02.21.08:790][479]LogFileHelpers: Auto-saving content packages took 0.081
+[2021.05.17-02.21.13:389][493]LogBlueprintUserMessages: [PlantBush_C_1] X=1.300 Y=1.300 Z=1.300
+[2021.05.17-02.21.23:483][523]LogBlueprintUserMessages: [PlantBush_C_1] X=1.500 Y=1.500 Z=1.500
+[2021.05.17-02.30.04:292][ 43]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush34A0B357444F9245178F7FAAC5E9F92B.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.30.04:300][ 43]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.30.04:300][ 43]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.30.05:014][113]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.30.05:040][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.05.17-02.30.19:849][515]LogBlueprintUserMessages: [PlantBush_C_1] X=0.700 Y=0.700 Z=0.700
+[2021.05.17-02.30.30:079][483]LogBlueprintUserMessages: [PlantBush_C_1] X=0.900 Y=0.900 Z=0.900
+[2021.05.17-02.30.35:001][950]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.30.35:015][950]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.30.40:838][612]LogBlueprintUserMessages: [PlantBush_C_1] X=1.100 Y=1.100 Z=1.100
+[2021.05.17-02.30.52:225][596]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.30.52:229][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.30.52:229][596]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:30:52 PM)
+[2021.05.17-02.30.52:229][596]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.30.52:236][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006646s)
+[2021.05.17-02.30.52:237][596]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.30.52:237][596]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2021.05.17-02.30.52:237][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007626s)
+[2021.05.17-02.30.52:252][596]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.05.17-02.30.52:255][596]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.30.52:255][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.30.52:255][596]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.30.52:255][596]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.30.52:258][596]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.30.52:258][596]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.30.52:264][596]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.30.52:264][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.30.52:264][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.30.52:264][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.30.52:264][596]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.30.52:264][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.30.52:264][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.30.52:276][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.30.52:276][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.30.52:276][596]LogInit: FAudioDevice initialized.
+[2021.05.17-02.30.52:276][596]LogAudio: Display: Audio Device (ID: 16) registered with world 'PlantGame'.
+[2021.05.17-02.30.52:309][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.30.52:309][596]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.30.52:310][596]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.30.52
+[2021.05.17-02.30.52:310][596]LogWorld: Bringing up level for play took: 0.000737
+[2021.05.17-02.30.52:310][596]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.05.17-02.30.52:344][596]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.30.52:344][596]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.30.52:347][596]PIE: Server logged in
+[2021.05.17-02.30.52:348][596]PIE: Play in editor total start time 0.119 seconds.
+[2021.05.17-02.30.53:302][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.30.53:302][645]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.30.53:302][645]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.30.53:303][645]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.30.53:304][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.30.53:308][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.30.53:316][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.30.53:328][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.30.53:329][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.30.53:345][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.05.17-02.30.53:423][646]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.05.17-02.30.55:138][783]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.30.55:152][783]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.31.10:203][181]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.31.10:208][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.31.10:208][181]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:31:10 PM)
+[2021.05.17-02.31.10:208][181]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.31.10:214][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006179s)
+[2021.05.17-02.31.10:215][181]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.31.10:215][181]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2021.05.17-02.31.10:215][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007363s)
+[2021.05.17-02.31.10:231][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.05.17-02.31.10:235][181]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.31.10:235][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.31.10:235][181]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.31.10:235][181]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.31.10:238][181]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.31.10:238][181]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.31.10:243][181]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.31.10:243][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.31.10:243][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.31.10:243][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.31.10:244][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.31.10:244][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.31.10:244][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.31.10:255][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.31.10:255][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.31.10:255][181]LogInit: FAudioDevice initialized.
+[2021.05.17-02.31.10:255][181]LogAudio: Display: Audio Device (ID: 17) registered with world 'PlantGame'.
+[2021.05.17-02.31.10:292][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.31.10:292][181]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.31.10:293][181]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.31.10
+[2021.05.17-02.31.10:293][181]LogWorld: Bringing up level for play took: 0.000717
+[2021.05.17-02.31.10:293][181]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.05.17-02.31.10:327][181]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.31.10:328][181]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.31.10:330][181]PIE: Server logged in
+[2021.05.17-02.31.10:331][181]PIE: Play in editor total start time 0.124 seconds.
+[2021.05.17-02.31.11:597][298]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.31.22:125][296]LogBlueprintUserMessages: [PlantBush_C_0] X=0.700 Y=0.700 Z=0.700
+[2021.05.17-02.31.32:125][244]LogBlueprintUserMessages: [PlantBush_C_0] X=0.900 Y=0.900 Z=0.900
+[2021.05.17-02.31.42:125][192]LogBlueprintUserMessages: [PlantBush_C_0] X=1.100 Y=1.100 Z=1.100
+[2021.05.17-02.31.52:125][140]LogBlueprintUserMessages: [PlantBush_C_0] X=1.300 Y=1.300 Z=1.300
+[2021.05.17-02.32.02:125][ 88]LogBlueprintUserMessages: [PlantBush_C_0] X=1.500 Y=1.500 Z=1.500
+[2021.05.17-02.32.08:601][702]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.32.08:616][702]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.32.08:617][702]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.32.08:618][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.32.08:623][702]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.32.08:631][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.32.08:644][702]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.32.08:645][702]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.32.08:660][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.05.17-02.32.08:777][703]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.05.17-02.32.59:186][462]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush6759CA934AF067594ECCE1A4BD4E87E6.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.32.59:195][462]AssetCheck: New page: Asset Save: PlantBush
+[2021.05.17-02.32.59:195][462]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.32.59:592][502]BlueprintLog: New page: Compile PlantBush
+[2021.05.17-02.32.59:618][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.05.17-02.33.36:289][ 18]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.05.17-02.33.36:294][ 18]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.05.17-02.33.36:303][ 18]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.05.17-02.33.38:861][239]LogContentBrowser: Attempting asset rename: NewBlueprint -> test
+[2021.05.17-02.33.38:865][239]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.05.17-02.33.39:362][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.05.17-02.33.39:364][282]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownBP/Maps/PlantGame' took 0.015
+[2021.05.17-02.33.39:364][282]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/PlantSelector] ([1] browsable assets)...
+[2021.05.17-02.33.39:364][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/PlantSelector]
+[2021.05.17-02.33.39:402][282]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantSelector_Auto3AAEF9FA741CC11B5A277789D1814731B.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/Autosaves/Game/TopDownBP/Blueprints/PlantSelector_Auto3.uasset'
+[2021.05.17-02.33.39:403][282]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Plants/test] ([1] browsable assets)...
+[2021.05.17-02.33.39:429][282]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Plants/test.test]
+[2021.05.17-02.33.39:429][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Plants/test]
+[2021.05.17-02.33.39:435][282]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/test_Auto3A00059FF49FD59A12C99D6BEEBF08217.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/Autosaves/Game/TopDownBP/Blueprints/Plants/test_Auto3.uasset'
+[2021.05.17-02.33.39:438][282]LogFileHelpers: Auto-saving content packages took 0.074
+[2021.05.17-02.33.40:417][358]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Plants/test.test
+[2021.05.17-02.33.48:145][105]LogSlate: Window 'test' being destroyed
+[2021.05.17-02.33.48:148][105]LogSlate: Window 'test' being destroyed
+[2021.05.17-02.33.48:152][105]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.33.48:152][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.33.48:193][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.17-02.33.48:193][105]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.33.48:193][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.33.51:459][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.05.17-02.33.52:850][390]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.17-02.33.52:877][390]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownBP/Blueprints/Plants/test.test
+[2021.05.17-02.33.53:267][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.05.17-02.33.53:288][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.17-02.33.55:215][580]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.33.55:218][580]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.33.56:684][726]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.34.16:356][658]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney
+[2021.05.17-02.34.39:286][985]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose
+[2021.05.17-02.34.57:299][368]LogSlate: Window 'Fix Self Context Function References' being destroyed
+[2021.05.17-02.35.03:932][109]BlueprintLog: New page: Compile PlantRose
+[2021.05.17-02.35.03:934][109]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "maxStages" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Get maxStages
+[2021.05.17-02.35.03:934][109]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "minScale" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Get minScale
+[2021.05.17-02.35.03:934][109]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "growthStage" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Get growthStage
+[2021.05.17-02.35.03:934][109]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "growthStage" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Get growthStage
+[2021.05.17-02.35.03:935][109]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "growthStage" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Set growthStage
+[2021.05.17-02.35.03:935][109]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Max Stages  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.03:935][109]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Growth Stage  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.03:935][109]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Growth Stage  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.03:935][109]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Growth Stage  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.03:936][109]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Min Scale  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.03:963][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.05.17-02.35.17:138][401]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.05.17-02.35.19:754][637]BlueprintLog: New page: Compile PlantRose
+[2021.05.17-02.35.19:756][637]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "maxStages" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Get maxStages
+[2021.05.17-02.35.19:757][637]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] Could not find a variable named "minScale" in 'PlantRose_C'.
+Make sure 'PlantRose_C' has been compiled for  Get minScale
+[2021.05.17-02.35.19:757][637]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Max Stages  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.19:758][637]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantRose.uasset: [Compiler] The property associated with  Min Scale  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose_C'
+[2021.05.17-02.35.19:785][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.05.17-02.35.32:257][706]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.05.17-02.35.51:757][424]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.05.17-02.35.52:582][493]BlueprintLog: New page: Compile PlantRose
+[2021.05.17-02.35.52:613][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.05.17-02.36.10:761][205]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantRose5187E9594BA28D610EA6C79E75B85089.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantRose.uasset'
+[2021.05.17-02.36.10:770][205]AssetCheck: New page: Asset Save: PlantRose
+[2021.05.17-02.36.10:770][205]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose
+[2021.05.17-02.36.11:554][281]BlueprintLog: New page: Compile PlantRose
+[2021.05.17-02.36.11:586][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.17-02.36.12:069][320]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantRose15DCF93544E1AF94C38E67BF360C00FA.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantRose.uasset'
+[2021.05.17-02.36.12:077][320]AssetCheck: New page: Asset Save: PlantRose
+[2021.05.17-02.36.12:078][320]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose
+[2021.05.17-02.37.02:562][776]LogSlate: Window 'Fix Self Context Function References' being destroyed
+[2021.05.17-02.38.55:249][425]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantMoneyA1B6A45F415E1C3D6494C0A8217F1CBA.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantMoney.uasset'
+[2021.05.17-02.38.55:258][425]AssetCheck: New page: Asset Save: PlantMoney
+[2021.05.17-02.38.55:258][425]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney
+[2021.05.17-02.38.56:610][555]BlueprintLog: New page: Compile PlantMoney
+[2021.05.17-02.38.56:613][555]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantMoney.uasset: [Compiler] Could not find a variable named "maxStages" in 'PlantMoney_C'.
+Make sure 'PlantMoney_C' has been compiled for  Get maxStages
+[2021.05.17-02.38.56:613][555]LogBlueprint: Warning: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantMoney.uasset: [Compiler] Could not find a variable named "minScale" in 'PlantMoney_C'.
+Make sure 'PlantMoney_C' has been compiled for  Get minScale
+[2021.05.17-02.38.56:614][555]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantMoney.uasset: [Compiler] The property associated with  Min Scale  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney_C'
+[2021.05.17-02.38.56:614][555]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantMoney.uasset: [Compiler] The property associated with  Max Stages  could not be found in '/Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney_C'
+[2021.05.17-02.38.56:614][555]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantMoney.uasset: [Compiler] The current value of the ' Handle ' pin is invalid: 'Handle' in action 'Clear and Invalidate Timer by Handle' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.05.17-02.38.56:642][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.17-02.39.08:079][509]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.05.17-02.39.28:744][443]BlueprintLog: New page: Compile PlantMoney
+[2021.05.17-02.39.28:748][443]LogBlueprint: Error: [AssetLog] C:\Users\Quinton\Documents\GitHub\plant-game\PlantGame\Content\TopDownBP\Blueprints\Plants\PlantMoney.uasset: [Compiler] The current value of the ' Handle ' pin is invalid: 'Handle' in action 'Clear and Invalidate Timer by Handle' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.05.17-02.39.28:878][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.05.17-02.40.10:923][354]BlueprintLog: New page: Compile PlantMoney
+[2021.05.17-02.40.11:056][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.05.17-02.40.13:167][555]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.40.13:172][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.40.13:172][555]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:40:13 PM)
+[2021.05.17-02.40.13:172][555]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.40.13:179][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006803s)
+[2021.05.17-02.40.13:179][555]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.40.13:179][555]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2021.05.17-02.40.13:179][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007977s)
+[2021.05.17-02.40.13:296][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.05.17-02.40.13:297][555]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.40.13:297][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.40.13:297][555]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.40.13:297][555]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.40.13:300][555]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.40.13:300][555]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.40.13:306][555]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.40.13:306][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.40.13:306][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.40.13:306][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.40.13:307][555]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.40.13:307][555]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.40.13:307][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.40.13:318][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.40.13:318][555]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.40.13:318][555]LogInit: FAudioDevice initialized.
+[2021.05.17-02.40.13:318][555]LogAudio: Display: Audio Device (ID: 18) registered with world 'PlantGame'.
+[2021.05.17-02.40.13:361][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.40.13:361][555]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.40.13:362][555]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.40.13
+[2021.05.17-02.40.13:363][555]LogWorld: Bringing up level for play took: 0.000703
+[2021.05.17-02.40.13:363][555]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.05.17-02.40.13:397][555]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.40.13:397][555]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.40.13:400][555]PIE: Server logged in
+[2021.05.17-02.40.13:401][555]PIE: Play in editor total start time 0.231 seconds.
+[2021.05.17-02.40.16:290][859]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.40.28:781][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.40.28:781][173]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.40.28:782][173]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.40.28:783][173]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.40.28:784][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.40.28:792][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.40.28:800][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.40.28:916][173]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.17-02.40.28:916][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.40.28:917][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.40.28:932][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.05.17-02.40.29:021][174]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.05.17-02.40.30:785][287]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.40.30:807][287]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.40.45:271][651]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantMoneyD743B51244C454AF0B1FCBB6A8436859.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantMoney.uasset'
+[2021.05.17-02.40.45:280][651]AssetCheck: New page: Asset Save: PlantMoney
+[2021.05.17-02.40.45:280][651]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney
+[2021.05.17-02.40.45:702][692]BlueprintLog: New page: Compile PlantMoney
+[2021.05.17-02.40.45:833][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.05.17-02.40.46:270][713]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantMoneyE23686C54985C05D8FB2C691F9E21F9A.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantMoney.uasset'
+[2021.05.17-02.40.46:279][713]AssetCheck: New page: Asset Save: PlantMoney
+[2021.05.17-02.40.46:279][713]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney
+[2021.05.17-02.40.47:435][820]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.40.47:439][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.40.47:439][820]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:40:47 PM)
+[2021.05.17-02.40.47:439][820]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.40.47:446][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006409s)
+[2021.05.17-02.40.47:447][820]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.40.47:447][820]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2021.05.17-02.40.47:447][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007544s)
+[2021.05.17-02.40.47:564][820]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.05.17-02.40.47:564][820]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.05.17-02.40.47:564][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.40.47:564][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.40.47:564][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.40.47:564][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.40.47:564][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.40.47:565][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.40.47:565][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.40.47:565][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.40.47:565][820]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.40.47:565][820]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.40.47:568][820]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.40.47:568][820]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.40.47:572][820]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.40.47:572][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.40.47:572][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.40.47:572][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.40.47:573][820]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.40.47:573][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.40.47:573][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.40.47:584][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.40.47:585][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.40.47:585][820]LogInit: FAudioDevice initialized.
+[2021.05.17-02.40.47:585][820]LogAudio: Display: Audio Device (ID: 19) registered with world 'PlantGame'.
+[2021.05.17-02.40.47:615][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.40.47:615][820]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.40.47:616][820]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.40.47
+[2021.05.17-02.40.47:616][820]LogWorld: Bringing up level for play took: 0.000732
+[2021.05.17-02.40.47:616][820]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.05.17-02.40.47:651][820]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.40.47:651][820]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.40.47:653][820]PIE: Server logged in
+[2021.05.17-02.40.47:655][820]PIE: Play in editor total start time 0.216 seconds.
+[2021.05.17-02.40.49:163][955]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.40.55:272][597]LogRenderer: Reallocating scene render targets to support 3440x1376 Format 10 NumSamples 1 (Frame:778).
+[2021.05.17-02.40.57:993][839]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.40.59:394][972]LogBlueprintUserMessages: [PlantSelector_C_1] TODO: Close plantui
+[2021.05.17-02.41.18:235][758]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.42.21:776][ 93]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.42.21:790][ 93]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.42.21:813][ 93]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.42.21:814][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.42.21:818][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.42.21:826][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.42.21:941][ 93]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.17-02.42.21:941][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.42.21:942][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.42.21:958][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.05.17-02.42.22:078][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.05.17-02.42.23:252][180]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.42.23:273][180]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.42.24:526][299]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.05.17-02.42.24:541][299]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.05.17-02.43.20:580][477]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.43.20:585][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.17-02.43.20:585][477]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:43:20 PM)
+[2021.05.17-02.43.20:585][477]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.43.20:591][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006017s)
+[2021.05.17-02.43.20:591][477]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.43.20:592][477]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2021.05.17-02.43.20:592][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.006872s)
+[2021.05.17-02.43.20:608][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.17-02.43.20:609][477]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.43.20:609][477]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.43.20:609][477]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.43.20:609][477]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.43.20:612][477]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.43.20:612][477]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.43.20:619][477]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.43.20:619][477]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.43.20:619][477]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.43.20:619][477]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.43.20:620][477]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.43.20:620][477]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.43.20:620][477]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.43.20:634][477]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.43.20:634][477]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.43.20:634][477]LogInit: FAudioDevice initialized.
+[2021.05.17-02.43.20:634][477]LogAudio: Display: Audio Device (ID: 20) registered with world 'PlantGame'.
+[2021.05.17-02.43.20:668][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.43.20:668][477]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.43.20:669][477]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.43.20
+[2021.05.17-02.43.20:669][477]LogWorld: Bringing up level for play took: 0.000685
+[2021.05.17-02.43.20:670][477]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.05.17-02.43.20:704][477]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.43.20:704][477]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.43.20:707][477]PIE: Server logged in
+[2021.05.17-02.43.20:708][477]PIE: Play in editor total start time 0.124 seconds.
+[2021.05.17-02.43.21:619][552]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.43.54:206][459]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.44.36:655][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.44.36:655][271]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.44.36:656][271]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.44.36:657][271]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.44.36:658][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.44.36:668][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.44.36:676][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.44.36:690][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.44.36:691][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.44.36:707][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.05.17-02.44.36:787][272]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.05.17-02.44.38:423][400]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.44.38:446][400]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.44.59:118][620]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantMoneyD5582673404002175262FFAA249F6560.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantMoney.uasset'
+[2021.05.17-02.44.59:126][620]AssetCheck: New page: Asset Save: PlantMoney
+[2021.05.17-02.44.59:126][620]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney
+[2021.05.17-02.44.59:548][668]BlueprintLog: New page: Compile PlantMoney
+[2021.05.17-02.44.59:581][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.05.17-02.45.16:179][586]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantRoseC45D45C249A340324E51559327C89501.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantRose.uasset'
+[2021.05.17-02.45.16:187][586]AssetCheck: New page: Asset Save: PlantRose
+[2021.05.17-02.45.16:188][586]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose
+[2021.05.17-02.45.17:776][773]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.45.17:781][773]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.45.17:782][773]LogPlayLevel: [PlayLevel] Compiling PlantRose before play...
+[2021.05.17-02.45.17:820][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.17-02.45.17:821][773]LogPlayLevel: PlayLevel: Blueprint regeneration took 40 ms (1 blueprints)
+[2021.05.17-02.45.17:821][773]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:45:17 PM)
+[2021.05.17-02.45.17:821][773]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.45.17:828][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007087s)
+[2021.05.17-02.45.17:829][773]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.45.17:830][773]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2021.05.17-02.45.17:830][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.008206s)
+[2021.05.17-02.45.17:848][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.05.17-02.45.17:848][773]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.45.17:848][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.45.17:848][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.45.17:849][773]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.45.17:849][773]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.45.17:852][773]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.45.17:852][773]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.45.17:857][773]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.45.17:857][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.45.17:857][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.45.17:857][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.45.17:857][773]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.45.17:858][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.45.17:858][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.45.17:868][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.45.17:868][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.45.17:868][773]LogInit: FAudioDevice initialized.
+[2021.05.17-02.45.17:868][773]LogAudio: Display: Audio Device (ID: 21) registered with world 'PlantGame'.
+[2021.05.17-02.45.17:898][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.45.17:899][773]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.45.17:900][773]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.45.17
+[2021.05.17-02.45.17:900][773]LogWorld: Bringing up level for play took: 0.000703
+[2021.05.17-02.45.17:900][773]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.05.17-02.45.17:935][773]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.45.17:935][773]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.45.17:937][773]PIE: Server logged in
+[2021.05.17-02.45.17:938][773]PIE: Play in editor total start time 0.158 seconds.
+[2021.05.17-02.45.19:500][922]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.45.21:254][132]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.45.25:032][585]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.46.35:817][ 76]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.46.35:822][ 76]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.46.35:846][ 76]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.46.35:848][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.46.35:852][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.46.35:861][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.46.35:876][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.46.35:877][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.46.35:893][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.05.17-02.46.35:971][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.05.17-02.46.37:121][163]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.46.37:144][163]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-02.48.58:184][959]LogEditorTransaction: Undo Paste clipboard contents
+[2021.05.17-02.49.09:831][122]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantRose0B726B0A40C06D1E28E0598EFD960BC7.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantRose.uasset'
+[2021.05.17-02.49.09:840][122]AssetCheck: New page: Asset Save: PlantRose
+[2021.05.17-02.49.09:840][122]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantRose.PlantRose
+[2021.05.17-02.49.19:911][208]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantMoneyBBFF42CB4FEE1EFEC5691AB798F12312.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantMoney.uasset'
+[2021.05.17-02.49.19:919][208]AssetCheck: New page: Asset Save: PlantMoney
+[2021.05.17-02.49.19:919][208]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantMoney.PlantMoney
+[2021.05.17-02.49.21:152][329]BlueprintLog: New page: Compile PlantMoney
+[2021.05.17-02.49.21:186][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.05.17-02.49.22:364][442]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.17-02.49.22:368][442]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.17-02.49.22:369][442]LogPlayLevel: [PlayLevel] Compiling PlantBush before play...
+[2021.05.17-02.49.22:393][442]LogPlayLevel: [PlayLevel] Compiling PlantRose before play...
+[2021.05.17-02.49.22:434][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.05.17-02.49.22:434][442]LogPlayLevel: PlayLevel: Blueprint regeneration took 65 ms (2 blueprints)
+[2021.05.17-02.49.22:434][442]PIE: New page: PIE session: PlantGame (May 16, 2021, 6:49:22 PM)
+[2021.05.17-02.49.22:434][442]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.49.22:441][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006626s)
+[2021.05.17-02.49.22:442][442]LogAIModule: Creating AISystem for world PlantGame
+[2021.05.17-02.49.22:442][442]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2021.05.17-02.49.22:442][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlantGame.PlantGame to /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame (0.007765s)
+[2021.05.17-02.49.22:460][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.17-02.49.22:461][442]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.17-02.49.22:461][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.17-02.49.22:461][442]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.17-02.49.22:461][442]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.17-02.49.22:464][442]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.17-02.49.22:464][442]LogAudioMixer: Display: 1: FrontRight
+[2021.05.17-02.49.22:470][442]LogAudioMixer: Display: Using Audio Device DAC (2- E30)
+[2021.05.17-02.49.22:470][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.17-02.49.22:470][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.17-02.49.22:470][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.17-02.49.22:471][442]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.17-02.49.22:471][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.17-02.49.22:471][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.17-02.49.22:483][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.17-02.49.22:483][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.17-02.49.22:483][442]LogInit: FAudioDevice initialized.
+[2021.05.17-02.49.22:483][442]LogAudio: Display: Audio Device (ID: 22) registered with world 'PlantGame'.
+[2021.05.17-02.49.22:514][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.49.22:514][442]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.05.17-02.49.22:515][442]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlantGame.PlantGame up for play (max tick rate 0) at 2021.05.16-22.49.22
+[2021.05.17-02.49.22:515][442]LogWorld: Bringing up level for play took: 0.000733
+[2021.05.17-02.49.22:515][442]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.05.17-02.49.22:550][442]PIE: Warning: The widget 'SplashScreen_C' was already added to the screen.
+[2021.05.17-02.49.22:550][442]PIE: Warning: The widget 'HUD_C' was already added to the screen.
+[2021.05.17-02.49.22:553][442]PIE: Server logged in
+[2021.05.17-02.49.22:554][442]PIE: Play in editor total start time 0.186 seconds.
+[2021.05.17-02.49.23:800][550]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.49.25:443][738]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.49.28:170][ 51]PIE: Warning: The widget 'PlantSelector_C' was already added to the screen.
+[2021.05.17-02.49.41:530][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.05.17-02.49.43:033][616]LogSlate: Window 'Save Content' being destroyed
+[2021.05.17-02.49.43:087][616]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantBush64406DFF45F332657B155A93511B6FA1.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/Plants/PlantBush.uasset'
+[2021.05.17-02.49.43:127][616]LogSavePackage: Moving '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Saved/PlantSelector6A71FEED4124A6A04AAF3394E67C1C5B.tmp' to '../../../../../../Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/TopDownBP/Blueprints/PlantSelector.uasset'
+[2021.05.17-02.49.43:179][616]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.43:179][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.49.43:226][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.17-02.49.43:226][616]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.43:226][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.49.43:262][616]LogSlate: Window 'PlantRose' being destroyed
+[2021.05.17-02.49.43:267][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.17-02.49.43:267][616]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.43:267][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.49.43:315][616]LogSlate: Window 'PlantGame - Unreal Editor' being destroyed
+[2021.05.17-02.49.43:400][616]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.17-02.49.43:400][616]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/Plants/PlantBush.PlantBush
+[2021.05.17-02.49.43:400][616]LogContentValidation: Display: Validating WidgetBlueprint /Game/TopDownBP/Blueprints/PlantSelector.PlantSelector
+[2021.05.17-02.49.43:430][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.17-02.49.43:430][616]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_PlantGame
+[2021.05.17-02.49.43:430][616]LogSlate: Window 'PlantGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.05.17-02.49.43:431][616]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.05.17-02.49.43:434][616]LogWorld: UWorld::CleanupWorld for PlantGame, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.43:436][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.49.43:441][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.17-02.49.43:445][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.17-02.49.43:456][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.49.43:457][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.49.43:478][616]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.05.17-02.49.43:506][617]Cmd: QUIT_EDITOR
+[2021.05.17-02.49.43:506][617]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.17-02.49.43:508][617]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.17-02.49.43:936][617]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.05.17-02.49.43:936][617]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.05.17-02.49.43:936][617]LogAudio: Display: Audio Device unregistered from world 'PlantGame'.
+[2021.05.17-02.49.43:936][617]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.49.43:936][617]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.17-02.49.43:953][617]LogAudio: Display: Audio Device Manager Shutdown
+[2021.05.17-02.49.43:957][617]LogExit: Preparing to exit.
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBB900] Windows
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBB800] Default__DeviceProfile
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0900] WindowsNoEditor
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BB8A00] WindowsServer
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3300] WindowsClient
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBB400] IOS
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0D00] iPadAir
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BB9000] iPadAir2
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8F00] IPadPro
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9000] iPadAir3
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBAE00] iPadAir4
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABBF00] iPadMini2
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BB9300] iPadMini3
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABA000] iPadMini4
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBA900] iPadMini5
+[2021.05.17-02.49.44:958][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3400] iPhone6
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3500] iPodTouch6
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8C00] iPhone7
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9D00] iPodTouch7
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2600] iPhone5S
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8600] iPhone6Plus
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2900] iPhone6S
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB600] iPhone6SPlus
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0500] iPhone7Plus
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9400] iPhoneSE
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1900] iPhone8
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABA500] iPhone8Plus
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1A00] iPhoneX
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8500] iPhoneXS
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2800] iPhoneXSMax
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB900] iPhoneXR
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2400] iPhone11
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABAC00] iPhone11Pro
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2D00] iPhone11ProMax
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9200] iPhoneSE2
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0100] iPhone12Mini
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB300] iPhone12
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0F00] iPhone12Pro
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8D00] iPhone12ProMax
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1700] iPadPro105
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB000] iPadPro129
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2500] iPadPro97
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABA600] iPadPro2_129
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3100] iPad5
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9700] iPad6
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0600] iPad7
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8400] iPad8
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2B00] iPadPro11
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB700] iPadPro2_11
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3D00] iPadPro3_129
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8300] iPadPro4_129
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1600] AppleTV
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9300] AppleTV4K
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3800] TVOS
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABBA00] Mac
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3200] MacClient
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9F00] MacNoEditor
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3B00] MacServer
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABAE00] Linux
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1200] LinuxAArch64
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB400] LinuxNoEditor
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3C00] LinuxAArch64NoEditor
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABB500] LinuxClient
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BB9900] LinuxAArch64Client
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C49E00] LinuxServer
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBA700] LinuxAArch64Server
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C49200] Android
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBAA00] Android_Low
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C48300] Android_Mid
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BB8200] Android_High
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C48500] Android_Default
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBBC00] Android_Adreno4xx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C48C00] Android_Adreno5xx_Low
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBB500] Android_Adreno5xx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C48800] Android_Adreno6xx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBB100] Android_Adreno6xx_Vulkan
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C48600] Android_Mali_T6xx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BBBE00] Android_Mali_T7xx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C48B00] Android_Mali_T8xx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BB8700] Android_Mali_G71
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9C49000] Android_Mali_G72
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABAB00] Android_Mali_G72_Vulkan
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1800] Android_Mali_G76
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABA400] Android_Mali_G76_Vulkan
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2F00] Android_Mali_G77
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABA800] Android_Mali_G77_Vulkan
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2100] Android_Vulkan_SM5
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9500] Android_PowerVR_G6xxx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC0C00] Android_PowerVR_GT7xxx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB8900] Android_PowerVR_GE8xxx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1D00] Android_PowerVR_GM9xxx
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9900] Android_PowerVR_GM9xxx_Vulkan
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC2300] Android_TegraK1
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAABA100] Android_Unknown_Vulkan
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC3000] Lumin
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253BAAB9800] Lumin_Desktop
+[2021.05.17-02.49.44:959][617]LogDeviceProfile: Device profile begin destroy: [00000253B9BC1400] HoloLens
+[2021.05.17-02.49.44:961][617]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:963][617]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:965][617]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:966][617]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:967][617]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:968][617]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:969][617]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:970][617]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:971][617]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:972][617]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.44:975][617]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/Quinton/Documents/GitHub/plant-game/PlantGame/Content/] 
+[2021.05.17-02.49.44:996][617]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.17-02.49.44:998][617]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.17-02.49.45:001][617]LogExit: Editor shut down
+[2021.05.17-02.49.45:001][617]LogExit: Transaction tracking system shut down
+[2021.05.17-02.49.45:270][617]LogExit: Object subsystem successfully closed.
+[2021.05.17-02.49.45:295][617]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.17-02.49.45:315][617]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (808)
+[2021.05.17-02.49.45:315][617]LogModuleManager: Shutting down and abandoning module BlueprintGraph (806)
+[2021.05.17-02.49.45:315][617]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (804)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module Voice (802)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (800)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module SceneOutliner (798)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AddContentDialog (796)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module WidgetCarousel (795)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module EditorWidgets (792)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module StatsViewer (790)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (788)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (786)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AutomationWorker (784)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module PlanarCut (782)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module CharacterAI (780)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module GooglePADEditor (778)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (776)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (774)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (772)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (770)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (768)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (766)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (764)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (762)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (760)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module WebMMedia (758)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (756)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (754)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module SequenceRecorder (753)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (750)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (748)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (746)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (744)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (742)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (740)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (738)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (736)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (734)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (732)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module TextureAlignMode (730)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module BspMode (728)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module GeometryMode (726)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (724)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module SmartSnapping (722)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module SessionServices (720)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module MeshPaint (718)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (716)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module FoliageEdit (714)
+[2021.05.17-02.49.45:316][617]LogModuleManager: Shutting down and abandoning module LandscapeEditor (712)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module MeshPaintMode (710)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (708)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module ActorPickerMode (706)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module PlacementMode (704)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module ViewportSnapping (702)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module ViewportInteraction (700)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module ClothPainter (698)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (697)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module LogVisualizer (694)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module IntroTutorials (692)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (691)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (688)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (686)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (684)
+[2021.05.17-02.49.45:317][617]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (683)
+[2021.05.17-02.49.45:884][617]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (680)
+[2021.05.17-02.49.45:884][617]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (678)
+[2021.05.17-02.49.45:884][617]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (676)
+[2021.05.17-02.49.45:884][617]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (674)
+[2021.05.17-02.49.45:884][617]LogModuleManager: Shutting down and abandoning module TraceInsights (672)
+[2021.05.17-02.49.45:885][617]MemoryProfiler: Shutdown
+[2021.05.17-02.49.45:885][617]NetworkingProfiler: Shutdown
+[2021.05.17-02.49.45:885][617]LoadingProfiler: Shutdown
+[2021.05.17-02.49.45:885][617]TimingProfiler: Shutdown
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module TraceServices (671)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (668)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (666)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module InputBindingEditor (664)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module MergeActors (662)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (660)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module LocalizationService (659)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module HardwareTargeting (656)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (654)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module UndoHistory (652)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module XmlParser (650)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module Blutility (648)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (646)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (645)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (642)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (641)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module SettingsEditor (638)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module ProjectLauncher (636)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module SessionFrontend (634)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module ProfilerClient (632)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module DeviceManager (630)
+[2021.05.17-02.49.45:885][617]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (629)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module AutomationController (626)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module AutomationWindow (624)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module Layers (622)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (620)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module DetailCustomizations (618)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module PackagesDialog (616)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (614)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module Persona (612)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (611)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module AnimGraph (609)
+[2021.05.17-02.49.45:918][617]LogModuleManager: Shutting down and abandoning module Kismet (606)
+[2021.05.17-02.49.45:925][617]LogModuleManager: Shutting down and abandoning module KismetWidgets (605)
+[2021.05.17-02.49.45:925][617]LogModuleManager: Shutting down and abandoning module GraphEditor (602)
+[2021.05.17-02.49.45:925][617]LogModuleManager: Shutting down and abandoning module StructViewer (600)
+[2021.05.17-02.49.45:925][617]LogModuleManager: Shutting down and abandoning module ClassViewer (598)
+[2021.05.17-02.49.45:927][617]LogModuleManager: Shutting down and abandoning module Toolbox (596)
+[2021.05.17-02.49.45:927][617]LogModuleManager: Shutting down and abandoning module ModuleUI (594)
+[2021.05.17-02.49.45:927][617]LogModuleManager: Shutting down and abandoning module OutputLog (592)
+[2021.05.17-02.49.45:927][617]LogModuleManager: Shutting down and abandoning module GammaUI (590)
+[2021.05.17-02.49.45:927][617]LogModuleManager: Shutting down and abandoning module Documentation (588)
+[2021.05.17-02.49.45:927][617]LogModuleManager: Shutting down and abandoning module LiveCoding (586)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module LevelSequence (584)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (582)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module MovieScene (580)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (578)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module LauncherPlatform (576)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module AnalyticsET (574)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module PortalServices (572)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module PortalRpc (570)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module MessagingRpc (568)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (566)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module AudioMixerCore (565)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module AIModule (562)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module GameplayDebugger (561)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module AITestSuite (559)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module NavigationSystem (557)
+[2021.05.17-02.49.45:928][617]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (554)
+[2021.05.17-02.49.45:936][617]LogModuleManager: Shutting down and abandoning module ProfilerService (552)
+[2021.05.17-02.49.46:101][617]LogModuleManager: Shutting down and abandoning module TaskGraph (550)
+[2021.05.17-02.49.46:101][617]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (548)
+[2021.05.17-02.49.46:101][617]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (546)
+[2021.05.17-02.49.46:101][617]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (544)
+[2021.05.17-02.49.46:101][617]LogModuleManager: Shutting down and abandoning module CollectionManager (543)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GitSourceControl (540)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (538)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MotoSynth (536)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MeshConversion (534)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module DynamicMesh (532)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (530)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometricObjects (528)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (526)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (524)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (523)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (520)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (518)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (516)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (514)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module FractureEditor (512)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ChaosNiagara (510)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (508)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module BackChannel (506)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (504)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AutomationUtils (502)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AlembicImporter (500)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AlembicLibrary (499)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCache (498)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (497)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module SynthesisEditor (492)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module Synthesis (490)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ScreenshotTools (488)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (486)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (484)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (482)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module GooglePAD (480)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (478)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module EditableMesh (476)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (475)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module CableComponent (472)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (469)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (466)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AssetTags (464)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (462)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AppleImageUtils (460)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module AndroidPermission (458)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (456)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (454)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module TemplateSequence (452)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MediaCompositing (450)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module ImgMedia (448)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (446)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (444)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (442)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (440)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (438)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (436)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (434)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (432)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (430)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (428)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (426)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module UObjectPlugin (424)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (422)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module PluginBrowser (420)
+[2021.05.17-02.49.46:102][617]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module CurveEditorTools (416)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (414)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module CryptoKeys (412)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (410)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (408)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (406)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (404)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module SourceControl (403)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PluginUtils (400)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (398)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (396)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (394)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (392)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (390)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module Paper2DEditor (388)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (386)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (384)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (382)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module SoundFields (380)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module SignificanceManager (378)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (376)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (374)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (370)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (368)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (366)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module ActorSequence (364)
+[2021.05.17-02.49.46:103][617]LogModuleManager: Shutting down and abandoning module UdpMessaging (362)
+[2021.05.17-02.49.46:204][617]LogModuleManager: Shutting down and abandoning module TcpMessaging (360)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (358)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (356)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (354)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (352)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (350)
+[2021.05.17-02.49.46:305][617]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (348)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (346)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (344)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (342)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapController (340)
+[2021.05.17-02.49.46:305][617]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (338)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module MagicLeapAR (336)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module AugmentedReality (335)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (332)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module SignalProcessing (329)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module NiagaraEditor (327)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module NiagaraCore (324)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (322)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module FacialAnimation (320)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (318)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (316)
+[2021.05.17-02.49.46:305][617]LogModuleManager: Shutting down and abandoning module LevelEditor (315)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (314)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (312)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module MainFrame (310)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module HotReload (309)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module ToolMenus (305)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module TreeMap (303)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module DataValidation (300)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module ContentBrowser (299)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module ContentBrowserData (298)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (294)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module AnimationSharing (292)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (290)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (288)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module Paper2D (286)
+[2021.05.17-02.49.46:306][617]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (284)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (282)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (276)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (274)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module MediaAssets (272)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module Overlay (270)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module OverlayEditor (269)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module VREditor (266)
+[2021.05.17-02.49.46:307][617]LogModuleManager: Shutting down and abandoning module StringTableEditor (264)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (262)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (260)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module FunctionalTesting (258)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (256)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (255)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module UMG (252)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module UMGEditor (251)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module MessageLog (249)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module SlateReflector (244)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module Slate (242)
+[2021.05.17-02.49.46:308][617]LogModuleManager: Shutting down and abandoning module SlateCore (240)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (238)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module UnrealEd (236)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module MRMesh (234)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (232)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (230)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module XAudio2 (228)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module Networking (226)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module Core (224)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module MaterialEditor (222)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module MovieSceneTools (220)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module CurveEditor (219)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module Sequencer (217)
+[2021.05.17-02.49.46:309][617]LogModuleManager: Shutting down and abandoning module EditorStyle (216)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module KismetCompiler (212)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MeshBuilder (210)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MeshUtilities (208)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (207)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (206)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (205)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (203)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (201)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (199)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MaterialBaking (195)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (190)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module DerivedDataCache (188)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TargetPlatform (186)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (185)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (183)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (181)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (179)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (177)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (175)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (173)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (171)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (169)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (167)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (165)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module ImageWrapper (164)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (161)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (159)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (157)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (155)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (153)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (151)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (149)
+[2021.05.17-02.49.46:310][617]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (147)
+[2021.05.17-02.49.46:311][617]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (145)
+[2021.05.17-02.49.46:311][617]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (143)
+[2021.05.17-02.49.46:311][617]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (141)
+[2021.05.17-02.49.46:311][617]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (139)
+[2021.05.17-02.49.46:311][617]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.05.17-02.49.46:312][617]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module Chaos (104)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module ChaosCloth (96)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (94)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module ChunkDownloader (92)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (90)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (88)
+[2021.05.17-02.49.46:315][617]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (84)
+[2021.05.17-02.49.46:316][617]LogModuleManager: Shutting down and abandoning module XMPP (79)
+[2021.05.17-02.49.46:316][617]LogModuleManager: Shutting down and abandoning module WebSockets (78)
+[2021.05.17-02.49.46:327][617]LogModuleManager: Shutting down and abandoning module HTTP (75)
+[2021.05.17-02.49.46:327][617]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.17-02.49.46:327][617]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B88204E86-4FAE-98C3-53B1-FE82F8A317E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=996e0f504767689d100c1caff6f4a935%7Cbb33c75dda0f4d74a6439cce74edc20c%7C76f3555f-e9d7-4a43-912e-cb44a0756c40&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.17-02.49.46:327][617]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2021.05.17-02.49.46:338][617]LogModuleManager: Shutting down and abandoning module SSL (74)
+[2021.05.17-02.49.46:339][617]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2021.05.17-02.49.46:340][617]LogModuleManager: Shutting down and abandoning module Media (69)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module MediaInfo (68)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (64)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.17-02.49.46:341][617]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.17-02.49.46:342][617]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.17-02.49.46:342][617]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.17-02.49.46:349][617]LogD3D11RHI: Shutdown
+[2021.05.17-02.49.46:349][617]LogD3D11RHI: CleanupD3DDevice
+[2021.05.17-02.49.46:375][617]LogExit: Exiting.
+[2021.05.17-02.49.46:383][617]Log file closed, 05/16/21 22:49:46
